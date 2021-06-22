@@ -1,3 +1,21 @@
+## Authentication + database
+
+FIREBASE
+
+## Pre-processor css 5.0.0 version 
+
+yarn add node-sass@55.0.0
+
+global.css -> global.scss (style)
+
+## google fonts
+
+fonts Roboto and Poppins
+
+index.html add <link> from google fonts
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +23,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+## react-router-dom
+
+yarn add react-router-dom
+
+yarn add @types/react-router-dom -D (types dev mode)
 
 ### `yarn start`
 
