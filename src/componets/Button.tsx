@@ -1,12 +1,13 @@
-import { ButtonHTMLAttributes } from 'react'
+import { ButtonHTMLAttributes } from "react";
 
-import '../styles/button.scss'
+import "../styles/button.scss";
 
-type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>
-   
+// tipagem das propriedades que um button pode receber (react)
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
 export function Button(props: ButtonProps) {
-    return (
-        <button className="button" {...props}/> 
-    )
+  return (
+    // spreading all props from Button component
+    <button className="button" {...props} />
+  );
 }
